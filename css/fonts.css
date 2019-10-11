@@ -1,0 +1,16 @@
+@font-face {
+   font-family: "Pecita";
+   font-style: normal;
+   font-weight: normal;
+   src: local("Pecita"), url("../fonts/pecita/Pecita.woff") format("woff");
+}
+
+@font-face {
+   font-family: "OpenSans-Light";
+   src: local("OpenSans-Light"), url("../fonts/open-sans/OpenSans-Light.ttf") format("woff");
+}
+
+@font-face {
+   font-family: "OpenSans-Bold";
+   src: local("OpenSans-Bold"), url("../fonts/open-sans/OpenSans-Bold.ttf") format("woff");
+}

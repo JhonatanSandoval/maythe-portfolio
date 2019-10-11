@@ -1,0 +1,99 @@
+:root {
+   --primary: #e32675;
+   --primary-dark: #4a4a4a;
+}
+
+body,
+html {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   padding: 12px 30px;
+   font-family: "Open Sans", sans-serif;
+}
+
+.pecita {
+   font-family: Pecita;
+}
+
+.opensans-light {
+   font-family: OpenSans-Light;
+}
+
+.opensans-bold {
+   font-family: OpenSans-Bold;
+}
+
+h3 {
+   font-size: 23px;
+   color: var(--primary-dark);
+}
+
+.a-left {
+   float: left;
+}
+
+.a-right {
+   float: right;
+}
+
+#main {
+   position: absolute;
+   top: 37%;
+   left: 3%;
+   vertical-align: middle;
+   font-size: 64px;
+   padding: 0 20px;
+   color: var(--primary-dark);
+}
+
+#main div span {
+   color: var(--primary);
+   text-decoration: line-through;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+#bottom {
+   position: absolute;
+   bottom: 0px;
+}
+
+#bottom ul {
+   list-style-type: none;
+}
+
+#bottom ul li {
+   font-family: OpenSans-Light;
+   font-size: 12px;
+   display: inline-block;
+   margin: 0 50px;
+   padding-bottom: 5px;
+
+   background-image: url("../img/line_primary.svg");
+   background-repeat: no-repeat;
+   background-position: bottom left;
+}
+
+#bottom ul li:first-child {
+   margin-left: 10px;
+}
+
+#bottom ul li a {
+   text-decoration: none;
+   color: var(--primary-dark);
+}
+
+#bottom ul li a:hover {
+   color: var(--primary);
+   font-size: 15px;
+   font-family: OpenSans-Bold;
+}
+
+.img-link:hover {
+   cursor: pointer;
+}
